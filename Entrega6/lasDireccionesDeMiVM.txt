@@ -1,0 +1,19 @@
+-La IP Privada y Publica de mi VM
+
+Privada:10.0.2.15 
+Publica: 186.52.110.44
+
+------------------------------------------------------------------------------------------
+-La direccion MAC
+
+ 08:00:27:c5:db:ec brd ff:ff:ff:ff:ff:ff
+
+------------------------------------------------------------------------------------------
+
+-Es diferente la IP publica y privada de nuestra maquina host?
+
+En mi PC host, su ip publica es: 186.50.89.41. Y su ip privada es: 192.168.56.1
+Esto quiere decir que difieren con la de la maquina virtual . Podria entender que la maquina virtual pueda tener su propia direccion IP privada dentro de la red virtual en la que fue configurada.
+
+
+
