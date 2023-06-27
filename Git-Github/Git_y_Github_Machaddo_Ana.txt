@@ -1,0 +1,34 @@
+Cheatshee Comandos de Git:
+
+Configuración:
+git config --global user.name "Nombre"  # Configura el nombre de usuario global
+git config --global user.email "email@example.com"  # Configura el correo electrónico global
+
+Creación y Clonación de Repositorios:
+git init  # Inicializa un nuevo repositorio local
+git clone <url>  # Clona un repositorio existente
+
+Gestión de Cambios:
+git status  # Muestra el estado actual del repositorio
+git add <archivo>  # Agrega un archivo al área de preparación
+git commit -m "Mensaje del commit"  # Crea un nuevo commit con los cambios agregados
+git commit -a -m "Mensaje del commit"  # Crea un nuevo commit con todos los cambios realizados
+git diff  # Muestra las diferencias entre los cambios sin confirmar y la última versión confirmada
+
+Trabajo con Ramas:
+git branch  # Muestra las ramas disponibles
+git branch <nombre_rama>  # Crea una nueva rama
+git checkout <nombre_rama>  # Cambia a una rama existente
+git merge <nombre_rama>  # Fusiona los cambios de una rama en la rama actual
+
+Sincronización con Repositorios Remotos:
+git remote add origin <url>  # Asocia un repositorio remoto al repositorio local
+git push origin <nombre_rama>  # Envía los cambios al repositorio remoto
+git pull origin <nombre_rama>  # Obtiene los cambios más recientes del repositorio remoto
+
+Historial y Deshacer Cambios:
+git log  # Muestra el historial de commits
+git reset <commit>  # Regresa al commit especificado y deshace los cambios posteriores
+git revert <commit>  # Crea un nuevo commit que deshace los cambios introducidos por el commit especificado
+
+
